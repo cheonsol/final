@@ -1,0 +1,42 @@
+Create a high-fidelity UI design for a "SaaS Platform for Webtoon Agencies and Artists" with the following specific requirements and fixes. The design should be modern, data-driven, and focused on visual storytelling.
+
+## 1. Global Layout & Navigation
+- **Navigation:** Switch from bottom dock to a **Left Sidebar Navigation** for better usability on desktop.
+- **UI Structure:** Use a clear dashboard layout with a top bar for Notifications and Settings.
+- **Components:** Create a "Universal Form Modal" design pattern that is used consistently for Breaks, Workcation, Leave, and Overtime requests.
+- **Interactions:** Ensure all "Manage," "Edit," and "Create" buttons have clear active states indicating CRUD functionality.
+
+## 2. Artist Dashboard (Key Feature)
+- **State-Based Views:** Design 3 distinct interface modes:
+  1. **Serializing Mode:** Focus on productivity charts, deadline countdowns, and current episode tasks.
+  2. **Hiatus Mode:** Show rest schedules, return dates, and recharge status.
+  3. **Workcation Mode:** Show travel info and remote work status.
+- **Data Visualization:** Replace text-based metrics with **Recharts-style graphs** (Line charts for productivity trends, Pie charts for episode progress).
+- **Features:**
+  - Add a **"Health Check-in Modal"** that pops up when clicking "Start Work".
+  - Rename "Completed Cuts" to "Episode Progress (%)".
+  - Remove generic health stats; focus on personal condition.
+
+## 3. Artist Schedule & Projects
+- **Calendar:** Place the "Upcoming Schedule" list **side-by-side** to the right of the Calendar (not below).
+- **Filters:** Add specific filters for "Series Work," "Personal," "Hiatus," and "Workcation."
+- **Project Page:**
+  - Separate "Completed Series" into a dedicated archive view with stats.
+  - Show a Kanban or To-Do list view for managing episode tasks.
+  - Remove the "All Day" checkbox from the event creation form.
+
+## 4. Agency (Manager) Dashboard
+- **Terminology:** Rename "Emergency Projects" to **"Ongoing Series"**.
+- **Health Monitoring:** Instead of "Average Sleep Time," design a **"High-Risk Care List"** showing individual artists who need attention.
+- **Team Overview:** Group team status by **Series/Work** (e.g., "Solo Leveling Team") rather than a generic list.
+
+## 5. Team & HR Management
+- **Team Mgmt:** Design a UI to allocate members by **Role** (Main Writer, Assistant, Background Artist, Colorist) into specific Series groups.
+- **Workcation Dashboard:** Create a **Map-based Dashboard** showing the location, connection status, and progress of remote workers.
+- **Attendance:** Rename "Vacation Management" to **"Attendance Management"**. Include logic for webtoon-specific deadlines.
+- **Profile Cards:** Add "Send Message/Email" quick actions and Gamification badges (Achievements) on user profiles.
+
+## Visual Style
+- Clean, professional, yet creative.
+- Dark mode friendly.
+- Use distinct color coding for different roles (Artist vs. Manager).
